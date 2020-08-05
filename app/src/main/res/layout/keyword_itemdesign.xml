@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:background="@drawable/recyclerbackground"
+    android:backgroundTint="#dddddd"
+    android:gravity="center"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/enteredKeyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mountain"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:padding="7dp"
+        android:src="@drawable/remove" />
+
+</LinearLayout>
